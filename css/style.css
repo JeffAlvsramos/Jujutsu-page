@@ -90,7 +90,7 @@ img {
     color: green;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .bloco_1 {
         width: auto;
         padding: auto;
