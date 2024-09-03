@@ -32,36 +32,30 @@ h1{
 
 }
 
-.personas {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    column-gap: 25px;
-    padding: 2%;
-}
-
-.personas_2 {
+.bloco_1 {
     display: flex;
     justify-content: center;
     text-align: center;
     column-gap: 25px;
     padding: 1%;
-    
-    
-    
-    
 }
+
+.bloco_1 a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 25px;
+    padding: 1%;
+}
+    
+
 .personas :hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.2);
 
 }
 
-.personas_2 :hover {
-    cursor: pointer;
-    transform: scale(1.1);
 
-}
 
 img {
     transition: transform 0.5s;
@@ -72,6 +66,26 @@ img {
     
 }
 
-.geto :hover {
-    color: blue;
+
+.personas a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.gojo_text :hover {
+    color: blue;    
+}
+
+.geto_text :hover {
+    color: orange;
+}
+
+.subuxa_text :hover {
+    color: red;
+}
+
+.toji_text :hover {
+    color: green;
 }
