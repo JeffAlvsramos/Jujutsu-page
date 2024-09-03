@@ -89,3 +89,20 @@ img {
 .toji_text :hover {
     color: green;
 }
+
+@media (max-width: 360px) {
+    .titulo {
+        padding-bottom: 10%;
+        width: auto;
+    }
+    .bloco_1 {
+        width: auto;
+        padding: auto;
+        height: 17vh;
+        }
+
+        img {
+            width: auto;
+            
+        }
+}
